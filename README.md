@@ -32,7 +32,7 @@ A simple command-line tool written in Rust for cracking password hashes using va
 5. Run the executable:
 
     ```bash
-    ./target/release/hash_cracker <wordlist.txt> <hash> <algorithm>
+    ./target/release/hash_cracker <wordlist.txt> <hash algorithm>
     ```
 
     Replace `<wordlist.txt>` with the path to your wordlist file, `<hash>` with the hash you want to crack, and `<algorithm>` with the hashing algorithm used to generate the hash (supported algorithms: `sha1`, `sha256`, `md5`, `sha512`).
